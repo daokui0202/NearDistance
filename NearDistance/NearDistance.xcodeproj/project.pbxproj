@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E0B79551BBA44A50004AD40 /* WWHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B79541BBA44A50004AD40 /* WWHomeViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4E0B79591BBA45FB0004AD40 /* WWHomeGroupCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B79571BBA45FB0004AD40 /* WWHomeGroupCell.m */; settings = {ASSET_TAGS = (); }; };
+		4E0B795A1BBA45FB0004AD40 /* WWHomeGroupCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0B79581BBA45FB0004AD40 /* WWHomeGroupCell.xib */; settings = {ASSET_TAGS = (); }; };
+		4E0B79611BBA46790004AD40 /* WWHomeMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B795F1BBA46790004AD40 /* WWHomeMenuCell.m */; settings = {ASSET_TAGS = (); }; };
+		4E0B79621BBA46790004AD40 /* WWHomeMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E0B79601BBA46790004AD40 /* WWHomeMenuCell.xib */; settings = {ASSET_TAGS = (); }; };
+		4E0B79651BBA48270004AD40 /* WWHomeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E0B79641BBA48270004AD40 /* WWHomeHeaderView.m */; settings = {ASSET_TAGS = (); }; };
+		4E4CB1961BBA335300A586F6 /* WWHuDongViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4CB1951BBA335300A586F6 /* WWHuDongViewController.m */; settings = {ASSET_TAGS = (); }; };
+		4E4CB19A1BBA345C00A586F6 /* WWHuDongTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4CB1981BBA345C00A586F6 /* WWHuDongTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		4E4CB19B1BBA345C00A586F6 /* WWHuDongTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4CB1991BBA345C00A586F6 /* WWHuDongTableViewCell.xib */; settings = {ASSET_TAGS = (); }; };
+		4ED79C501BBA7809005F2E7D /* WWCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED79C4E1BBA7809005F2E7D /* WWCollectionViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		4ED79C511BBA7809005F2E7D /* WWCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4ED79C4F1BBA7809005F2E7D /* WWCollectionViewCell.xib */; settings = {ASSET_TAGS = (); }; };
 		8AA257841BB942DE00B99018 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA257831BB942DE00B99018 /* main.m */; };
 		8AA257871BB942DE00B99018 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA257861BB942DE00B99018 /* AppDelegate.m */; };
-		8AA2578A1BB942DE00B99018 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8AA257891BB942DE00B99018 /* ViewController.m */; };
 		8AA2578D1BB942DE00B99018 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA2578B1BB942DE00B99018 /* Main.storyboard */; };
 		8AA2578F1BB942DE00B99018 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AA2578E1BB942DE00B99018 /* Assets.xcassets */; };
 		8AA257921BB942DE00B99018 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AA257901BB942DE00B99018 /* LaunchScreen.storyboard */; };
@@ -35,12 +45,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4E0B79531BBA44A50004AD40 /* WWHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHomeViewController.h; sourceTree = "<group>"; };
+		4E0B79541BBA44A50004AD40 /* WWHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHomeViewController.m; sourceTree = "<group>"; };
+		4E0B79561BBA45FB0004AD40 /* WWHomeGroupCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHomeGroupCell.h; sourceTree = "<group>"; };
+		4E0B79571BBA45FB0004AD40 /* WWHomeGroupCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHomeGroupCell.m; sourceTree = "<group>"; };
+		4E0B79581BBA45FB0004AD40 /* WWHomeGroupCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWHomeGroupCell.xib; sourceTree = "<group>"; };
+		4E0B795E1BBA46790004AD40 /* WWHomeMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHomeMenuCell.h; sourceTree = "<group>"; };
+		4E0B795F1BBA46790004AD40 /* WWHomeMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHomeMenuCell.m; sourceTree = "<group>"; };
+		4E0B79601BBA46790004AD40 /* WWHomeMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWHomeMenuCell.xib; sourceTree = "<group>"; };
+		4E0B79631BBA48270004AD40 /* WWHomeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWHomeHeaderView.h; sourceTree = "<group>"; };
+		4E0B79641BBA48270004AD40 /* WWHomeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWHomeHeaderView.m; sourceTree = "<group>"; };
+		4E4CB1811BBA2CC700A586F6 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		4E4CB1941BBA335300A586F6 /* WWHuDongViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWHuDongViewController.h; path = ../WWHuDongViewController.h; sourceTree = "<group>"; };
+		4E4CB1951BBA335300A586F6 /* WWHuDongViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWHuDongViewController.m; path = ../WWHuDongViewController.m; sourceTree = "<group>"; };
+		4E4CB1971BBA345C00A586F6 /* WWHuDongTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWHuDongTableViewCell.h; path = ../WWHuDongTableViewCell.h; sourceTree = "<group>"; };
+		4E4CB1981BBA345C00A586F6 /* WWHuDongTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWHuDongTableViewCell.m; path = ../WWHuDongTableViewCell.m; sourceTree = "<group>"; };
+		4E4CB1991BBA345C00A586F6 /* WWHuDongTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = WWHuDongTableViewCell.xib; path = ../WWHuDongTableViewCell.xib; sourceTree = "<group>"; };
+		4ED79C4D1BBA7809005F2E7D /* WWCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWCollectionViewCell.h; sourceTree = "<group>"; };
+		4ED79C4E1BBA7809005F2E7D /* WWCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWCollectionViewCell.m; sourceTree = "<group>"; };
+		4ED79C4F1BBA7809005F2E7D /* WWCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WWCollectionViewCell.xib; sourceTree = "<group>"; };
 		8AA2577F1BB942DE00B99018 /* NearDistance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearDistance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA257831BB942DE00B99018 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8AA257851BB942DE00B99018 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8AA257861BB942DE00B99018 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		8AA257881BB942DE00B99018 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8AA257891BB942DE00B99018 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8AA257851BB942DE00B99018 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		8AA257861BB942DE00B99018 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		8AA2578C1BB942DE00B99018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8AA2578E1BB942DE00B99018 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AA257911BB942DE00B99018 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -78,6 +105,157 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E4CB1831BBA328500A586F6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4E4CB1841BBA328500A586F6 /* Controller */,
+				4E4CB1851BBA328500A586F6 /* Model */,
+				4E4CB1861BBA328500A586F6 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4E4CB1841BBA328500A586F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E0B79531BBA44A50004AD40 /* WWHomeViewController.h */,
+				4E0B79541BBA44A50004AD40 /* WWHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E4CB1851BBA328500A586F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E4CB1861BBA328500A586F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E0B79631BBA48270004AD40 /* WWHomeHeaderView.h */,
+				4E0B79641BBA48270004AD40 /* WWHomeHeaderView.m */,
+				4E0B795E1BBA46790004AD40 /* WWHomeMenuCell.h */,
+				4E0B795F1BBA46790004AD40 /* WWHomeMenuCell.m */,
+				4E0B79601BBA46790004AD40 /* WWHomeMenuCell.xib */,
+				4ED79C4D1BBA7809005F2E7D /* WWCollectionViewCell.h */,
+				4ED79C4E1BBA7809005F2E7D /* WWCollectionViewCell.m */,
+				4ED79C4F1BBA7809005F2E7D /* WWCollectionViewCell.xib */,
+				4E0B79561BBA45FB0004AD40 /* WWHomeGroupCell.h */,
+				4E0B79571BBA45FB0004AD40 /* WWHomeGroupCell.m */,
+				4E0B79581BBA45FB0004AD40 /* WWHomeGroupCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E4CB1871BBA328500A586F6 /* HuDong */ = {
+			isa = PBXGroup;
+			children = (
+				4E4CB1881BBA328500A586F6 /* Controller */,
+				4E4CB18A1BBA328500A586F6 /* View */,
+				4E4CB1891BBA328500A586F6 /* Model */,
+			);
+			path = HuDong;
+			sourceTree = "<group>";
+		};
+		4E4CB1881BBA328500A586F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4E4CB1941BBA335300A586F6 /* WWHuDongViewController.h */,
+				4E4CB1951BBA335300A586F6 /* WWHuDongViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E4CB1891BBA328500A586F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E4CB18A1BBA328500A586F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E4CB1971BBA345C00A586F6 /* WWHuDongTableViewCell.h */,
+				4E4CB1981BBA345C00A586F6 /* WWHuDongTableViewCell.m */,
+				4E4CB1991BBA345C00A586F6 /* WWHuDongTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E4CB18B1BBA328500A586F6 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				4E4CB18C1BBA328500A586F6 /* Controller */,
+				4E4CB18D1BBA328500A586F6 /* Model */,
+				4E4CB18E1BBA328500A586F6 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		4E4CB18C1BBA328500A586F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E4CB18D1BBA328500A586F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E4CB18E1BBA328500A586F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E4CB18F1BBA328500A586F6 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				8AA257851BB942DE00B99018 /* AppDelegate.h */,
+				8AA257861BB942DE00B99018 /* AppDelegate.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		4E4CB1901BBA328500A586F6 /* ShangQuan */ = {
+			isa = PBXGroup;
+			children = (
+				4E4CB1911BBA328500A586F6 /* Controller */,
+				4E4CB1921BBA328500A586F6 /* Model */,
+				4E4CB1931BBA328500A586F6 /* View */,
+			);
+			path = ShangQuan;
+			sourceTree = "<group>";
+		};
+		4E4CB1911BBA328500A586F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4E4CB1921BBA328500A586F6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E4CB1931BBA328500A586F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8AA257761BB942DE00B99018 = {
 			isa = PBXGroup;
 			children = (
@@ -101,14 +279,12 @@
 		8AA257811BB942DE00B99018 /* NearDistance */ = {
 			isa = PBXGroup;
 			children = (
-				8AA257851BB942DE00B99018 /* AppDelegate.h */,
-				8AA257861BB942DE00B99018 /* AppDelegate.m */,
-				8AA257881BB942DE00B99018 /* ViewController.h */,
-				8AA257891BB942DE00B99018 /* ViewController.m */,
 				8AA2578B1BB942DE00B99018 /* Main.storyboard */,
-				8AA2578E1BB942DE00B99018 /* Assets.xcassets */,
-				8AA257901BB942DE00B99018 /* LaunchScreen.storyboard */,
-				8AA257931BB942DE00B99018 /* Info.plist */,
+				4E4CB1831BBA328500A586F6 /* Home */,
+				4E4CB1871BBA328500A586F6 /* HuDong */,
+				4E4CB1901BBA328500A586F6 /* ShangQuan */,
+				4E4CB18B1BBA328500A586F6 /* Me */,
+				4E4CB18F1BBA328500A586F6 /* Other */,
 				8AA257821BB942DE00B99018 /* Supporting Files */,
 			);
 			path = NearDistance;
@@ -117,7 +293,11 @@
 		8AA257821BB942DE00B99018 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8AA2578E1BB942DE00B99018 /* Assets.xcassets */,
+				8AA257901BB942DE00B99018 /* LaunchScreen.storyboard */,
+				8AA257931BB942DE00B99018 /* Info.plist */,
 				8AA257831BB942DE00B99018 /* main.m */,
+				4E4CB1811BBA2CC700A586F6 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -243,9 +423,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4ED79C511BBA7809005F2E7D /* WWCollectionViewCell.xib in Resources */,
+				4E4CB19B1BBA345C00A586F6 /* WWHuDongTableViewCell.xib in Resources */,
+				4E0B79621BBA46790004AD40 /* WWHomeMenuCell.xib in Resources */,
 				8AA257921BB942DE00B99018 /* LaunchScreen.storyboard in Resources */,
 				8AA2578F1BB942DE00B99018 /* Assets.xcassets in Resources */,
 				8AA2578D1BB942DE00B99018 /* Main.storyboard in Resources */,
+				4E0B795A1BBA45FB0004AD40 /* WWHomeGroupCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +454,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AA2578A1BB942DE00B99018 /* ViewController.m in Sources */,
+				4E0B79651BBA48270004AD40 /* WWHomeHeaderView.m in Sources */,
+				4E0B79611BBA46790004AD40 /* WWHomeMenuCell.m in Sources */,
+				4E4CB19A1BBA345C00A586F6 /* WWHuDongTableViewCell.m in Sources */,
 				8AA257871BB942DE00B99018 /* AppDelegate.m in Sources */,
+				4ED79C501BBA7809005F2E7D /* WWCollectionViewCell.m in Sources */,
+				4E0B79551BBA44A50004AD40 /* WWHomeViewController.m in Sources */,
+				4E4CB1961BBA335300A586F6 /* WWHuDongViewController.m in Sources */,
+				4E0B79591BBA45FB0004AD40 /* WWHomeGroupCell.m in Sources */,
 				8AA257841BB942DE00B99018 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +601,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NearDistance/PrefixHeader.pch";
 				INFOPLIST_FILE = NearDistance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.NearDistance;
@@ -422,6 +613,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NearDistance/PrefixHeader.pch";
 				INFOPLIST_FILE = NearDistance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.NearDistance;
@@ -496,6 +688,7 @@
 				8AA257AE1BB942DE00B99018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA257AF1BB942DE00B99018 /* Build configuration list for PBXNativeTarget "NearDistanceTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +697,7 @@
 				8AA257B11BB942DE00B99018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8AA257B21BB942DE00B99018 /* Build configuration list for PBXNativeTarget "NearDistanceUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +706,7 @@
 				8AA257B41BB942DE00B99018 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

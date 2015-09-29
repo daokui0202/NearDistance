@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  NearDistance
+//
+//  Created by wawa on 15/9/29.
+//  Copyright © 2015年 李世超. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef DEBUG
+#define NSLog(...) NSLog(__VA_ARGS__)
+//#define debugMethod() NSLog(@"%s", __func__)
+#else
+#define NSLog(...)
+//#define debugMethod()
+#endif
+
+
+
+
+
+
+
+#endif
